@@ -1,0 +1,461 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+section{
+	padding-top: 117px;
+}
+
+.logo{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-weight: 900;
+	padding-top: 10px;
+	padding-bottom: 150px;
+}
+
+h2{
+	text-align: center;
+	color: #000;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1105px;
+}
+
+#container{
+	padding-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+}
+
+.offer{
+	text-transform: uppercase;
+	margin-top: 90px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 33px;
+	color: #fff;
+}
+
+#container{
+	background: url(3.png) center fixed;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+}
+
+input.button4 {
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
+  font-family: 'Amatic SC', bold;
+  font-size: 50px;
+  font-weight: 700;
+  color: #E93781;
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: #9C0860 linear-gradient(#9C0860, #9C0860);
+  box-shadow: inset #891A5C 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+input.button4:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+input.button4:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+
+
+ul.nav{
+                margin-left: 10px;
+                margin-top: 30px;
+                list-style: none;
+                float: right;
+      }
+            .nav li { 
+            	font-size: 20px;
+				font-weight: 900;
+            	font-family: 'Amatic SC', cursive;
+                float: left;
+            }
+            ul.nav a {
+                display: block;
+                width: 5em;
+                padding:10px;
+                margin: 0 5px;
+                background-color: #f4f4f4;
+                border: 1px;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+
+#about{
+	color: white;
+	font-style: initial;
+	padding-bottom: 0px;
+}
+
+.bgs2{
+	background: url(1.jpg) fixed center no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	color: #E93781;
+	font-family: 'Amatic SC', cursive;
+	font-style: ;
+	padding-top: 0px;
+	font-size: 80px;
+	font-weight: 400px;
+}
+
+.text1{
+	font-weight: 900; 
+	color: #000;
+	font-family: 'Amatic SC', cursive;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-left: 30%;
+	padding-right: 60px;
+	text-align: center;
+	font-size: 38px;
+}
+
+.text2{
+	font-family: 'Amatic SC', cursive;
+	margin-top: 20px;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-bottom: 105px;
+	padding-top: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+.nizk{
+	font-size: 15px;
+}
+.vis{
+	font-size: 40px;
+}
+.txt2{
+	padding: 0px;
+	padding-bottom: 0 auto;
+	margin-bottom: 0px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.piclogo img{
+	width: 350px;
+	height: 250px;
+	padding-left: 120px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	float: left;
+
+-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.piclogo img:hover {
+  -webkit-filter: sepia(100%);
+}
+
+.logo img{
+	width: 150px;
+	height: 50px;
+
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.logo img:hover{
+	width: 300px;
+	height: 100px;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+	font-style: ;
+	padding-top: 0px;
+	font-size: 80px;
+	font-weight: 900px;
+}
+
+.services{
+	margin: 0 auto;
+	padding: 0 auto;
+	background: url(4.jpg) fixed no-repeat center;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+	padding-bottom: 40px;
+}
+
+ul.photo1 {
+	text-align: center;
+    margin: 0;
+    padding: 4px; 
+   }
+   ul.photo1 li {
+   	color: white;
+    display: inline; 
+    margin-right: 5px;
+    padding: 3px;
+   }
+   ul.photo1 img{
+   	width: 220px;
+   	height: 220px;
+   }
+
+   li.photo1 img{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.photo1 img:hover {
+  -webkit-filter: invert(100%);
+}
+
+
+  ul.photo2 {
+	text-align: center;
+    margin: 0;
+    padding: 4px; 
+   }
+   ul.photo2 li {
+   	color: white;
+    display: inline; 
+    margin-right: 5px;
+    padding: 3px;
+   }
+    ul.photo2 img{
+   	width: 220px;
+   	height: 220px;
+   }
+
+      li.photo2 img{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.photo2 img:hover {
+  -webkit-filter: invert(100%);
+}
+
+ul.photo3 {
+	text-align: center;
+    margin: 0;
+    padding: 4px; 
+   }
+   ul.photo3 li {
+   	color: white;
+    display: inline; 
+    margin-right: 5px;
+    padding: 3px;
+    padding-bottom: 40px;
+   }
+    ul.photo3 img{
+   	width: 220px;
+   	height: 220px;
+   }
+
+    li.photo3 img{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.photo3 img:hover {
+  -webkit-filter: invert(100%);
+}
+
+#message a
+{
+display: block;
+display: none;
+z-index: 999;
+opacity: .8;
+position: fixed;
+top: 100%;
+margin-top: -80px;
+
+left: 50%;
+margin-left: 480px;
+-moz-border-radius: 24px;
+-webkit-border-radius: 24px;
+
+width: 80px;
+line-height: 48px;
+height: 48px;
+padding: 10px;
+background-color: #fff;
+font-size: 24px;
+text-align: center;
+color: #fff;
+}
+
+#footer{
+	background: gray;
+	margin: 0px;
+	padding: 0px;
+}
+
+h5{
+	text-align: center;
+	margin-bottom: 0px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+	font-style: ;
+	padding-top: 0px;
+	font-size: 40px;
+	font-weight: 900px;
+}
+
+#footer img{
+	padding: 20px 0px 20px 20px;
+}
+.adress{
+	margin: 20px 20px 0px 0px;
+	float: right;
+}
+
+ul.social{
+	margin-right: 40px;
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+
+.social img{
+	width: 60px;
+	height: 60px;
+}
+
+/* Стили формы */
+#application {
+    width: 475px;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 73px;
+    background: none;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+/*Стили полей при клике по ним*/
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+    border: 1px solid #30ad64;
+}
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #efefef;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #30ad64;
+    border: none;
+    width: 100%;
+    height: 73px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #d68c18;
+        transition: .6s;
+    }

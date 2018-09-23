@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link type="php/form.php" href="php/form.php">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<title>design.logo.com</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/site.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+
+	<div id="top"></div>
+
+	<header id="top">
+		<script type="text/javascript">
+$(function () {
+var scroll_timer;
+var displayed = false;
+var $message = $('#message a');
+var $window = $(window);
+var top = $(document.body).children(0).position().top;
+$window.scroll(function () {
+window.clearTimeout(scroll_timer);
+scroll_timer = window.setTimeout(function () {
+if($window.scrollTop() <= top)
+{
+displayed = false;
+$message.fadeOut(500);
+}
+else if(displayed == false)
+{
+displayed = true;
+$message.stop(true, true).show().click(function () { $message.fadeOut(500); });
+}
+}, 100);
+});
+});
+</script>
+
+		<script src="js/script.js"></script>
+
+		<script src="http://atuin.ru/js/art/stars.js" type="text/javascript"></script>
+
+		<div id="container">
+
+			<div class="menu">
+		<ul class="nav">
+            <li><a href="#container">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#servis">Услуги</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+			</div>
+		<div class="logo">
+		<img src="img/logo.png" alt="logo">
+		</div>
+
+			<div class="offer">
+				<h1>Дизайн + печать</br>рекламной</br>продукции</h1>
+				<a href="#about"><input type="button" class="button4" value="Узнать больше"></a>
+			</div>
+		</div>
+	</header>
+
+	<section class="bgs2">
+		<div id="about">
+			<h2>Кто мы такие?</h2>
+		
+
+		<ul class="block2">
+			<li>
+				<div = class="piclogo">
+				<img src="img/команда.jpg" width="420px" height="350px">
+				</div>
+			</li>  
+
+			<li>
+				<p class="text1"><b>Мы - молодая и амбициозная<br>
+				компания <i>“Design Logo”</i>.<br> 
+				Занимаемся разработкой
+				дизайна<br> и печатью рекламной
+				продукции,<br> с которой вы 
+				можете ознакомиться ниже.</b>
+				</p>
+			</li>
+		</ul>
+		
+
+			<div class="text2" style="color: #D3FECD">
+			<p style="background-color: #E93781" class="txt2">
+				<b>Мы Внимательно вас выслушаем и постараемся 
+				воплотить в жизнь ваши  идеи и пожелания! У нас 
+				самые <u clas="nizk">низкие</u> цены и <u class="vis">лучшее</u> качество! Производим доставку по всей Украине <i>“Новой Почтой” </i>или 
+				же <i>“Укрпочтой”.</i> Спасибо за доверие!
+				</b>
+			</p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="services">
+		<div id=servis>
+		<h3 class="h3">Чем мы занимаемся?</h3>
+		<div>
+			<ul class="photo1">
+				<li><a href=""><img src="css/визитки.png"></a></li>
+				<li><a href=""><img src="css/флаера.png"></a></li>
+				<li><a href=""><img src="css/плакаты.png"></a><br></li>
+				<li>ВИЗИТКИ</li>
+				<li style="padding: 0px 160px 0px 160px;">ФЛАЕРА</li>
+				<li>ПЛАКАТЫ</li>
+			</ul>
+
+			<ul class="photo2">
+				<li><a href=""><img src="css/Буклеты.png"></a></li>
+				<li><a href=""><img src="css/календари.png"></a></li>
+				<li><a href=""><img src="css/картины на холсте.png"></a><br></li>
+				<li>БУКЛЕТЫ</li>
+				<li style="padding: 0px 140px 0px 140px;">КАЛЕНДАРИ</li>
+				<li>КАРТИНЫ</li>
+			</ul>
+
+			<ul class="photo3">
+				<li><a href=""><img src="css/каталоги.png"></a></li>
+				<li><a href=""><img src="css/меню.png"></a></li>
+				<li><a href=""><img src="css/открытки.png"></a><br></li>
+				<li>КАТАЛОГИ</li>
+				<li style="padding: 0px 160px 0px 160px;">МЕНЮ</li>
+				<li>ОТКРЫТКИ</li>
+			</ul>
+		</div>
+	</div>
+	</section>
+
+
+	<footer>
+		<div id="footer">
+
+		
+		<form id="application" action="php/form.php" method="POST" name=" application ">
+		   <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+		   <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+		   <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+		   <button class="applicationButton" type="submit" form="application">Получить прайс </button>
+		</form>
+
+
+		<ul class="social">
+			<li><a href="viber://chat?number=+380994717236"><img src="css/viber.png"></a></li>
+			<li><a href="tg://resolve?domain=EgorNovak"><img src="css/telegram.png" alt=""></a></li>
+			<li><a href="https://www.instagram.com/des1gn_logo/"><img src="css/instagram.png" alt=""></a></li>
+		</ul>
+
+		<img src="css/Дизайн + печать рекламной продукции.png" width="505px" height="92px" class="company">
+
+			<img src="css/Украина, г.Бердянск, 71101.png" width="324px" height="57px" class="adress">
+
+		</div>
+	</footer>
+
+<div id="message"><a href="#top"><img src="css/up.png" width="60px" height="50px"></a></div>
+
+</body>
+
+</html>
